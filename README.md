@@ -1,30 +1,65 @@
+# Command Line Calculator Documentation
 
- COMMAND LINE CALCULATOR USING PYTHON
+## Overview
 
-The project is about a command line calculator made up using Python language.
+The Command Line Calculator is a Python-based program that allows users to perform various mathematical operations through the terminal. With this calculator, users can perform operations such as addition, subtraction, multiplication, division, exponentiation, logarithm, finding the greatest common divisor, square root, maximum, and minimum.
 
-The input will be taken on the terminal, so the output will also be shown in the terminal.
+## Usage
 
-By copying the path of the program file in the terminal we can run it on the terminal.
+### Installation
+To use the Command Line Calculator, follow these steps:
 
-In this calculator, we can perform various operations:
-"add, subtract, multiply, divide, power, logarithmic, greatest common divisor, square root, maximum, minimum".
+1. Clone this repository by running the following command in your terminal:
 
-firstly, we are supposed to enter our number one and then number two in the terminal and then choose the operations available to get our required output.
+   git clone https://github.com/your-username/your-repository.git
 
-Any operation we choose which is not available in the program then we will get an "Invalid Operation" as the output. 
+2. Navigate to the directory where the calculator program file is located:
+ 
+   cd your-repository
 
-The output for the operations available will be displayed as floating points up to 3 decimal places.
+To run the calculator, execute the following command in your terminal:
 
-The advantages of a command-line interface include a CLI can be a lot faster and more efficient than any other type of interface.
-
-It can also handle repetitive tasks easily, requiring less memory compared to other interfaces.
-
-
+python calc.py
 
 
-## Tech Stack
+## Input
 
-Language: PYTHON
-Libraries: MATH MODULE
+The calculator prompts the user to enter two numbers and choose an operation from the available options. The numbers should be entered as floating-point values. The available operations are:
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Power (power)
+- Logarithm (log)
+- Greatest Common Divisor (gcd)
+- Square Root (square root)
+- Maximum (max)
+- Minimum (min)
+
+## Output
+
+The calculator provides the result of the chosen operation. The output is displayed as a floating-point value rounded to three decimal places. In case of invalid input or an unsupported operation, an appropriate error message is shown.
+
+## Dependencies
+
+The Command Line Calculator relies on the following Python modules:
+- math: provides mathematical functions and constants
+
+Please ensure that you have Python 3. x installed on your system to run the calculator.
+
+## Advantages
+
+- Command-line interface (CLI): The calculator offers a CLI, which can be faster and more efficient for performing calculations.
+- Memory efficiency: The CLI requires less memory compared to other interfaces.
+- Flexibility: Users can perform a variety of mathematical operations using a single program.
+- Portability: The calculator can be easily executed on any system with Python installed.
+
+## Limitations
+
+- Input validation: The calculator assumes valid floating-point numbers as input. Invalid input may result in unexpected behavior or errors.
+- Limited functionality: While the calculator supports common mathematical operations, it may not cover advanced or specialized calculations.
+
+## Conclusion
+
+The Command Line Calculator provides a convenient way to perform mathematical calculations through the terminal. Its simplicity and ease of use make it a useful tool for quick calculations and scripting.
 
