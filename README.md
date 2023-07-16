@@ -17,9 +17,9 @@ To use the Command Line Calculator, follow these steps:
  
    cd your-repository
 
-To run the calculator, execute the following command in your terminal:
+## To run the calculator, execute the following command in your terminal:
 
-python calc.py
+python calc.py and then provide the two floating point inputs and an operation from the operations given below (in case of an operation other than this an 'invalid operation' output will display) then press enter to run the code in your terminal.
 
 
 ## Input
@@ -44,6 +44,7 @@ The calculator provides the result of the chosen operation. The output is displa
 
 The Command Line Calculator relies on the following Python modules:
 - math: provides mathematical functions and constants
+- argparse: makes it easy to write user-friendly command line interfaces
 
 Please ensure that you have Python 3. x installed on your system to run the calculator.
 
